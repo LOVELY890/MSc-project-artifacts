@@ -1,0 +1,28 @@
+{
+  "model": "Snort_hypothetical",
+  "built_from": "existing y_test",
+  "assumptions": {
+    "beta_attack": [
+      8,
+      2
+    ],
+    "beta_benign": [
+      1,
+      40
+    ],
+    "threshold": 0.5,
+    "per_attack": false
+  },
+  "AUC": 1.0,
+  "AP": 1.0,
+  "confusion_matrix": [
+    [
+      517,
+      0
+    ],
+    [
+      8,
+      475
+    ]
+  ]
+}
